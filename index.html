@@ -1,20 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<title>Language Reference</title>
 <style>
-  .container {
-    display: flex;
-  }
-  img {
-    height: auto;
-    width: auto;
-  }
+body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+h2 { margin-top: 30px; }
+ul { list-style-type: none; padding-left: 0; }
+li { margin-bottom: 4px; }
+.code { font-family: monospace; background-color: #f0f0f0; padding: 2px 6px; border-radius: 4px; }
 </style>
 </head>
 <body>
-  <div class="container">
-    <img src="0.png" alt="0">
-    <img src="1.png" alt="1">
-  </div>
+
+<h2>Nouns</h2>
+<ul>
+<li>apple, arm, ball, banana, bed, bird, bolt, book, bow, box, brick, brush, bug, bump, cake, cat, chair, cloth, cup, dirt, dog, door, ear, earth, egg, eraser, eye, fan, feather, finger, fire, fish, flag, flower, foot, fork, gas, genital, glass, grass, gun, hair, hand, hat, head, hole, hook, horse, hourglass, house, igloo, jar, knife, ladder, land, leaf, leg, light, lock, metal, moon, mouth, nose, organism, paper, paw, pen, person, pipe, pocket, rain, ring, ripple, road, rock, ruler, skin, skull, smoke, snake, star, stick, sun, table, tail, teeth, thorn, toe, tongue, torso, tree, umbrella, urn, volcano, water, wind, window, wood, wound</li>
+</ul>
+
+<h2>Verbs</h2>
+<ul>
+<li>bite, bloom, blow, brushing, burn, climb, crack, cut, die, drink, eat, encircle, erupt, exist, feel, fly, follow, grasp, grow, hear, hurt, inhabit, live, measure, meow, peel, raining, read, remove, rippling, roll, secure, see, sex, shield, shine, shoot, sit, sleep, smell, speak, strike, swim, take, taste, think, touch, use, wag, walk, wash, wave, wear, wipe, write, wruff</li>
+</ul>
+
+<h2>Abstractions</h2>
+<ul>
+<li>1, 2, 3, 4, 5, 6, 7, 8, 9, all, and, angry, backwards, big, bigger, biggest, blush, bottom, brilliance, but, can, color, different, do, down, empty, far, few, forwards, from, full, give, group, happy, have, high, if, inside, left, low, many, me, near, neutral, nothing, or, outside, picture, question, right, sad, same, shock, short, sideways, small, smaller, smallest, tall, thing, time, top, up, want, way, weird, you</li>
+</ul>
+
+<h2>Example Compounds</h2>
+<ul>
+<li>backwards_time - past</li>
+<li>near_time - present/now</li>
+<li>forwards_time - future</li>
+<li>person_question - who</li>
+<li>thing_question - what</li>
+<li>time_question - when</li>
+<li>road_question - where</li>
+<li>do_question - how</li>
+<li>question_question - why</li>
+<li>question_speak - because</li>
+<li>me_you - we(speaker and listener)</li>
+<li>me_group - we(speaker and speakers talkpoints)</li>
+<li>you_group - yall</li>
+<li>far_person - he/shey/they(singular)/it(singular)</li>
+<li>far_group - they(plural)/it(plural)</li>
+<li>near_thing - this</li>
+<li>far_thing - that</li>
+<li>near_thing_group - these</li>
+<li>far_thing_group - those</li>
+<li>far_road - there</li>
+<li>shock_do - must</li>
+<li>apple_color - red</li>
+<li>wound_color - dark red</li>
+<li>fire_color - orange</li>
+<li>banana_color - yellow</li>
+<li>leaf_color - green</li>
+<li>grass_color - grow</li>
+<li>water_color - blue</li>
+<li>star_color - light blue</li>
+<li>bolt_color - purple</li>
+<li>tongue_color - pink</li>
+<li>none_color - black</li>
+<li>metal_color - white</li>
+<li>smoke_color - gray</li>
+<li>dirt_color - brown</li>
+<li>cloth_touch - soft</li>
+<li>rock_touch - hard</li>
+<li>fire_touch - warm</li>
+<li>igloo_touch - cold</li>
+<li>sun_apple - lemon</li>
+<li>water_apple - blueberry</li>
+<li>bolt_apple - grape</li>
+<li>tongue_apple - strawberry</li>
+<li>leaf_tongue - watermelon</li>
+<li>small_apple - tomato</li>
+<li>smallest_apple - cherry</li>
+<li>tall_leaf - cucumber</li>
+<li>ball_leaf - pea</li>
+<li>paper_leaf - cabbage</li>
+<li>meow_dog - fox</li>
+<li>wruff_cat - ferret</li>
+<li>moon_horse - cow</li>
+<li>big_cat - lion</li>
+<li>big_dog - wolf</li>
+<li>speak_thing - language</li>
+<li>speak_write - writing system</li>
+<li>small_speak_write - word/name</li>
+<li>smallest_speak_write - letter</li>
+<li>house_secure - security</li>
+<li>big_person - adult</li>
+<li>small_person - child</li>
+<li>think_see - learn</li>
+<li>think_see_house - school</li>
+<li>brilliance_think - innovate</li>
+<li>brilliance_touch - love</li>
+<li>touch_mouth - kiss</li>
+<li>brilliance_touch_kiss - romantic kiss</li>
+<li>arm_encircle - hug</li>
+<li>brilliance_arm_encircle - romantic hug</li>
+<li>backwards_think - remember</li>
+<li>brilliance_do - create</li>
+<li>bolt_pipe - electricity</li>
+<li>sun_moon - day</li>
+<li>big_sun_moon - week</li>
+<li>bigger_sun_moon - month</li>
+<li>biggest_sun_moon - year</li>
+<li>finger_window - fingernail</li>
+<li>toe_window - thumb nail</li>
+<li>down_head - neck</li>
+<li>eat_table - plate</li>
+<li>arm_hourglass - wristwatch</li>
+<li>eat_thing - food</li>
+<li>sun_dirt - sand</li>
+<li>igloo_dirt - snow</li>
+<li>grass_stick - stesm</li>
+<li>volcano_rock - charcoal</li>
+<li>low_eye - cheek</li>
+<li>shock_weird - spooky</li>
+<li>brilliance_taste_thing - candy</li>
+<li>brilliance_taste_wood - chocolate</li>
+<li>weird_color - neon</li>
+<li>wound_water - blood</li>
+<li>wound_wood - meat</li>
+<li>sun_ring - corona</li>
+<li>leg_hat - pants</li>
+<li>arm_hat - glove</li>
+<li>arm_cloth - mitten</li>
+<li>backwards_glass - mirror</li>
+<li>backwards_see - reflection</li>
+</ul>
+
+<h2>Example Sentences</h2>
+<ul>
+<li>in japan, people are making electricity using their footsteps: <span class="code">inside sun_land person near_time brilliance_do bolt_pipe use far_group walk</span></li>
+<li>last year we kissed: <span class="code">backwards_time biggest_sun_moon me_you brilliance_touch_mouth</span></li>
+<li>i gave them a kiss on their cheek: <span class="code">me backwards_time give far_person touch_mouth top under_eye</span></li>
+<li>i did not see willow and dock kill hunter 9 days ago in suns butchery: <span class="code">9 sun_moon backwards_time me nothing see hair_tree and wood_water die knife_person inside sun_sun wound_wood house</span></li>
+<li>1 fish 2 fish red fish blue fish: <span class="code">1 fish 2 fish apple_color fish water_color fish</span></li>
+</ul>
+
 </body>
 </html>
